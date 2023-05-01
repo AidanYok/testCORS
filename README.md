@@ -10,6 +10,7 @@ You also need to install the `node-fetch` package, which can be done using the f
 
 ```bash
 npm install node-fetch
+```
 
 ## Usage
 
@@ -17,5 +18,6 @@ Save the script as `testCORS.js` and run it using the following command, replaci
 
 ```bash
 node testCORS.js <your-url>
+```
 
 The script will output whether CORS is working properly based on the response's `access-control-allow-origin` header. If the header is set to `*` (allowing all origins) or matches the provided origin (`https://example.com` in this case), the script will report that CORS is working properly. Otherwise, it will report that CORS is not working properly.
